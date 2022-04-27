@@ -1,0 +1,46 @@
+.chid-comp{  
+  position: relative;
+  top: 64px;  
+}
+
+.url-input-form mat-form-field {
+  width: 80%;
+}
+.toolbar{
+  padding-left: 10px;
+  font-size: 22px;
+  box-shadow: -6px -10px 8px 9px #1976d2;
+}
+button {
+  margin-left: 5px;  
+  padding: 10px;
+}
+.url-input-form button {  
+  width: 15%;
+}
+mat-expansion-panel-header {
+  background: #efefef !important;
+}
+.duplicate-iden-note{
+  margin-left: 20px;
+  color: red;
+}
+.spinner-overlay{
+  position: fixed;
+    width: 100%;
+    height: 100%;
+    /* overflow: hidden; */
+    opacity: 0.5;
+    z-index: 999;
+    right: 0;
+    left: 0;
+    box-sizing: border-box;
+    
+}
+mat-spinner{
+  top:10%;
+  left: 50%;
+}
+mat-tab-body{
+  padding-top: 5px;
+}

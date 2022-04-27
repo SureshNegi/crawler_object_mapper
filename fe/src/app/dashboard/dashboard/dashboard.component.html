@@ -1,0 +1,160 @@
+<div class="content" role="main">
+  <div class="spinner-overlay" *ngIf="_showSpinner">
+    <mat-spinner></mat-spinner>
+  </div>
+  <form class="url-input-form">
+    <mat-form-field appearance="fill">
+      <mat-label>Application</mat-label>
+      <mat-select
+        [(value)]="selectedApplication"
+        (selectionChange)="selectApplication($event.value)"
+      >
+        <mat-option *ngFor="let app of applications" [value]="app.id">
+          {{ app.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+
+    <button
+      mat-raised-button
+      color="primary"
+      type="button"
+      class="start_btn"
+      (click)="processURL()"
+    >
+      Start
+    </button>
+  </form>
+  <div>
+    <mat-form-field appearance="fill">
+      <mat-label>Application Page</mat-label>
+      <mat-select
+        [(value)]="selectedPage"
+        (selectionChange)="selectPage($event.value)"
+      >
+        <mat-option *ngFor="let page of pageNames" [value]="page.id">
+          {{ page.name }}
+        </mat-option>
+      </mat-select>
+    </mat-form-field>
+    <button
+      class="copy_btn"
+      mat-stroked-button
+      color="primary"
+      type="button"
+      (click)="copyAllSelectedItems()"
+    >
+      Copy Selected Records
+    </button>
+    <button
+      class="copy_btn"
+      mat-stroked-button
+      color="primary"
+      type="button"
+      (click)="generateJson()"
+    >
+      Generate identifier JSON file
+    </button>
+  </div>
+  <mat-tab-group (selectedTabChange)="tabChange($event)">
+    <mat-tab label="Elements Identifier">
+      <ng-template [ngTemplateOutlet]="eleIdentifier"></ng-template>
+    </mat-tab>
+    <mat-tab label="Diff">
+      <div *ngIf="_selectedTabIndex === 1">
+        <ng-template [ngTemplateOutlet]="diff"></ng-template>
+      </div>
+    </mat-tab>
+  </mat-tab-group>
+
+  <ng-template #eleIdentifier>
+    <mat-accordion [multi]="true">
+      <mat-expansion-panel
+        *ngFor="let element of elementNames; index as i"
+        [expanded]="true"
+      >
+        <mat-expansion-panel-header>
+          <h4>
+            <i class="fas fa-xs fa-info-circle"></i>
+            {{ element.title }}
+          </h4>
+        </mat-expansion-panel-header>
+
+        <ng-template matExpansionPanelContent>
+          <mat-selection-list #matSelList>
+            <mat-list-option
+              [selected]="element.selected"
+              *ngFor="let element of getDomElementsOfType(element.tag)"
+              (click)="onAreaListControlChanged($event, matSelList, element)"
+              [value]="element"
+            >
+              <div>
+                {{ element.identifier }}
+                <span class="duplicate-iden-note" *ngIf="element.count > 1"
+                  >multiple elements found with this selector({{
+                    element.count
+                  }}
+                  elements found)</span
+                >
+                <span
+                  *ngIf="element.count === 1 && element.isScreenshotCaptured"
+                >
+                  <a
+                    (click)="openImage($event, element)"
+                    href="javascript:void(0)"
+                    >Open Screenshot</a
+                  >
+                </span>
+              </div>
+            </mat-list-option>
+          </mat-selection-list>
+        </ng-template>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </ng-template>
+
+  <ng-template #diff>
+    <mat-accordion [multi]="true">
+      <mat-expansion-panel
+        *ngFor="let crawlElement of elementNames; index as i"
+        [expanded]="true"
+      >
+        <mat-expansion-panel-header>
+          <h4>
+            <i class="fas fa-xs fa-info-circle"></i>
+            {{ crawlElement.title }}
+          </h4>
+        </mat-expansion-panel-header>
+
+        <ng-template matExpansionPanelContent>
+          <mat-selection-list #matSelList2>
+            <mat-list-option
+              [selected]="element.selected"
+              *ngFor="let element of getDiffDomElementsOfType(crawlElement.tag)"
+              (click)="onAreaListControlChanged($event, matSelList2, element)"
+              [value]="element.identifier"
+            >
+              <div [ngStyle]="{ color: element.color }">
+                <span *ngIf="element.color" class="diff-note"
+                  >Identifier from Golden build</span
+                >
+                <span *ngIf="!element.color" class="diff-note"
+                  >Identifier from Current build</span
+                >
+                {{ " - " }}
+                {{ element.identifier }}
+
+                <span class="duplicate-iden-note" *ngIf="element.count > 1"
+                  >multiple elements found with this selector({{
+                    element.count
+                  }}
+                  elements found)</span
+                >
+              </div>
+            </mat-list-option>
+          </mat-selection-list>
+        </ng-template>
+      </mat-expansion-panel>
+    </mat-accordion>
+  </ng-template>
+</div>

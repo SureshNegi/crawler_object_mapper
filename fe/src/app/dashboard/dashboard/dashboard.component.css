@@ -1,0 +1,43 @@
+.url-input-form mat-form-field {
+    width: 87%;
+  }
+  .toolbar{
+    padding-left: 10px;
+    font-size: 22px;
+    box-shadow: -6px -10px 8px 9px #1976d2;
+  }
+  button {
+    margin-left: 5px;  
+    padding: 10px;
+  }
+  .url-input-form button {  
+    width: 8%;
+    margin-left: 10px;
+  }
+  mat-expansion-panel-header {
+    background: #efefef !important;
+  }
+  .duplicate-iden-note{
+    margin-left: 20px;
+    color: red;
+  }
+  
+  mat-tab-body{
+    padding-top: 5px;
+  }
+  .diff-note{
+    color: black;
+    margin-left: 20px;
+    font-weight: 500;
+  }
+  .copy_btn{
+    top: -3px;
+    height: 47px;
+    padding-top: 7px;
+    padding-left: 23px;
+    padding-right: 23px;
+  }
+  .start_btn{
+    top: -6px;
+    line-height: 26px;
+  }

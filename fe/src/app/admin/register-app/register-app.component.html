@@ -1,0 +1,73 @@
+<!-- <mat-grid-list cols="1" rowHeight="500px">
+  <mat-grid-tile>
+    <div class="example-container">
+      <mat-form-field appearance="fill" class="width-100">
+        <mat-label>Application Name</mat-label>
+        <input matInput />
+      </mat-form-field>
+
+      <mat-form-field appearance="fill" class="width-100">
+        <mat-label>Application Url</mat-label>
+        <input matInput />
+      </mat-form-field>
+      <br />
+      <mat-form-field appearance="fill" class="width-100">
+        <mat-label>Email address</mat-label>
+        <input matInput placeholder="Ex. pat@example.com" />
+      </mat-form-field>
+    </div>
+  </mat-grid-tile>
+</mat-grid-list> -->
+
+<div class="app-form">
+  <div class="spinner-overlay" *ngIf="_showSpinner | async">
+    <mat-spinner></mat-spinner>
+  </div>
+  <mat-grid-list cols="2" rowHeight="100px">
+    <mat-grid-tile [colspan]="2" [rowspan]="2">
+      <mat-card-content>
+        <form class="my-form" #form>
+          <mat-form-field class="full-width">
+            <mat-label>Application Name</mat-label>
+            <input
+              matInput
+              placeholder="Application name"
+              name="aname"
+              required
+            />
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <mat-label>Application URL</mat-label>
+            <input
+              matInput
+              placeholder="Application URL"
+              name="aurl"
+              required
+            />
+          </mat-form-field>
+          <mat-form-field class="full-width">
+            <mat-label>Application Path</mat-label>
+            <input
+              matInput
+              placeholder="Application path"
+              name="apath"
+              required
+            />
+          </mat-form-field>
+        </form>
+      </mat-card-content>
+    </mat-grid-tile>
+    <mat-grid-tile [colspan]="2">
+      <mat-card-actions>
+        <button
+          mat-raised-button
+          [disabled]="!form.checkValidity()"
+          (click)="register(form)"
+          color="primary"
+        >
+          REGISTER
+        </button>
+      </mat-card-actions>
+    </mat-grid-tile>
+  </mat-grid-list>
+</div>
