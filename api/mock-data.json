@@ -1,0 +1,1204 @@
+{
+    "pageIdentifierList": [
+        {
+            "pageName": "loginPage",
+            "identifiers": [
+                {
+                    "identifier": "",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "screenshotName": "test.png",
+                    "identifier": "div span.glyphicon.glyphicon-exclamation-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-info-sign.glyphicon.glyphicon-info-sign.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-home",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.version",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form input[placeholder='Username'].form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form input[placeholder='Password'].form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.navbar-toggle",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form button.btn.btn-lg.btn-primary",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.dropdown-toggle",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "li a[href=\"/camunda/app/tasklist/default/../default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../welcome/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../admin/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../cockpit/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://camunda.org\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "pageName": "compassHomePage",
+            "identifiers": [
+                {
+                    "identifier": "",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 75
+                },
+                {
+                    "identifier": "a span.brand-logo",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.brand-name",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.glyphicon.glyphicon-exclamation-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-info-sign.glyphicon.glyphicon-info-sign.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-user.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-home",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-paperclip",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-list-alt",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.tnp-label",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.tnp-connection-status.connected",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-plus-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "div span.animate-spin.glyphicon.glyphicon-refresh",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "button span.sr-only",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div span.message",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div span.glyphicon.glyphicon-info-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-plus",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.counter",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-pencil",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "div span.sorting-label.hidden-xs.hidden-sm.hidden-md",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.sort-by",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-plus-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "a span.hidden-xs.hidden-sm.hidden-md",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.total-results",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span..resize",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.dropdown.stored-criteria",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-floppy-disk",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.input-group-btn",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-ok",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.due-date",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 9
+                },
+                {
+                    "identifier": "div span.creation-date",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 15
+                },
+                {
+                    "identifier": "div span.due-date.overdue",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-resize-full",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-resize-small",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.version",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div input[placeholder='Variable name'].form-control.input-sm",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 10
+                },
+                {
+                    "identifier": "div input[placeholder='Filter Tasks'].form-control.main-field",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div input.form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.navbar-toggle",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.tnp-notification-button-container",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.region-toggle.btn.btn-link",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "div button.close",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div button.btn.btn-primary.btn-sm",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 10
+                },
+                {
+                    "identifier": "span button.dropdown-toggle.btn.btn-default",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "span button.btn.btn-default",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link.maximize",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link.reset-regions",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.navbar-brand.app-banner[href=\"#/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.dropdown-toggle",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 5
+                },
+                {
+                    "identifier": "li a[href=\"/camunda/app/tasklist/default/../default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../welcome/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../admin/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../cockpit/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "view a.showShortcutHelp",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://communities.mercer.com/mercerservices/WAS/SitePages/UserSupport.aspx\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"https://fe.admin.wms.oss2-bed-int.qea.int.mercer.com/custom-task-list\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.filter-hint",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.sort-direction.glyphicon.glyphicon-menu-down",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.glyphicon.glyphicon-link",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=0621d21b-c1d4-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.glyphicon.glyphicon-menu-down",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 15
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=03af9a06-c1d4-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=b1dd672a-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=a084a3b9-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=7e6ee601-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=707ad137-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=6a9e1d3f-c1d3-11ec-9169-c26db66bac09\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=12b82a40-c1c5-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=10488a17-c1c5-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=bce6ddf4-c1c4-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=aa5f36be-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=8a30d698-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=7a776b76-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=756cfba3-c1c4-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=d8df9d17-c1b4-11ec-8bfe-aa17217e97ee\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "view a.createCommentLink",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://camunda.org\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div select.form-control.input-sm",
+                    "name": "select",
+                    "type": "tag",
+                    "count": 10
+                }
+            ]
+        }
+    ],
+    "pageDifflist": [
+        {
+            "pageName": "loginPage",
+            "identifiers": [
+                {
+                    "identifier": "",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "div span.glyphicon.glyphicon-exclamation-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1,
+                    "color": "darkviolet"
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-info-sign.glyphicon.glyphicon-info-sign.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-home",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.version",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form input[placeholder='Username'].form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form input[placeholder='Password'].form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.navbar-toggle",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "form button.btn.btn-lg.btn-primary",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.dropdown-toggle",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "li a[href=\"/camunda/app/tasklist/default/../default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../welcome/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../admin/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../cockpit/default/#/login\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://camunda.org\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                }
+            ]
+        },
+        {
+            "pageName": "compassHomePage",
+            "identifiers": [
+                {
+                    "identifier": "",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 75
+                },
+                {
+                    "identifier": "a span.brand-logo",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.brand-name",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.glyphicon.glyphicon-exclamation-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-info-sign.glyphicon.glyphicon-info-sign.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-user.",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-home",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-paperclip",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-list-alt",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.tnp-label",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.tnp-connection-status.connected",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-plus-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "div span.animate-spin.glyphicon.glyphicon-refresh",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "button span.sr-only",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div span.message",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div span.glyphicon.glyphicon-info-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-plus",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.counter",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-pencil",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "div span.sorting-label.hidden-xs.hidden-sm.hidden-md",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.sort-by",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "a span.glyphicon.glyphicon-plus-sign",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "a span.hidden-xs.hidden-sm.hidden-md",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.total-results",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span..resize",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.dropdown.stored-criteria",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-floppy-disk",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.caret",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.input-group-btn",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-ok",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.due-date",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 9
+                },
+                {
+                    "identifier": "div span.creation-date",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 15
+                },
+                {
+                    "identifier": "div span.due-date.overdue",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 4
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-resize-full",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "button span.glyphicon.glyphicon-resize-small",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div span.version",
+                    "name": "span",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div input[placeholder='Variable name'].form-control.input-sm",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 10
+                },
+                {
+                    "identifier": "div input[placeholder='Filter Tasks'].form-control.main-field",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div input.form-control",
+                    "name": "input",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.navbar-toggle",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div button.tnp-notification-button-container",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.region-toggle.btn.btn-link",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 3
+                },
+                {
+                    "identifier": "div button.close",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 2
+                },
+                {
+                    "identifier": "div button.btn.btn-primary.btn-sm",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 10
+                },
+                {
+                    "identifier": "span button.dropdown-toggle.btn.btn-default",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "span button.btn.btn-default",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link.maximize",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "header button.btn.btn-link.reset-regions",
+                    "name": "button",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.navbar-brand.app-banner[href=\"#/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.dropdown-toggle",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 5
+                },
+                {
+                    "identifier": "li a[href=\"/camunda/app/tasklist/default/../default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../welcome/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../admin/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a[href=\"../../cockpit/default/\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "view a.showShortcutHelp",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://communities.mercer.com/mercerservices/WAS/SitePages/UserSupport.aspx\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"https://fe.admin.wms.oss2-bed-int.qea.int.mercer.com/custom-task-list\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.filter-hint",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "li a.sort-direction.glyphicon.glyphicon-menu-down",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.glyphicon.glyphicon-link",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=0621d21b-c1d4-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a.glyphicon.glyphicon-menu-down",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 15
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=03af9a06-c1d4-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=b1dd672a-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=a084a3b9-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=7e6ee601-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=707ad137-c1d3-11ec-907f-1231b9d8ebc1\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=6a9e1d3f-c1d3-11ec-9169-c26db66bac09\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=12b82a40-c1c5-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=10488a17-c1c5-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=bce6ddf4-c1c4-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=aa5f36be-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=8a30d698-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=7a776b76-c1c4-11ec-89a2-2e1edd143d6c\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=756cfba3-c1c4-11ec-bd9b-6603ce205cde\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "h4 a[href=\"#/?task=d8df9d17-c1b4-11ec-8bfe-aa17217e97ee\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "view a.createCommentLink",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div a[href=\"http://camunda.org\"]",
+                    "name": "a",
+                    "type": "tag",
+                    "count": 1
+                },
+                {
+                    "identifier": "div select.form-control.input-sm",
+                    "name": "select",
+                    "type": "tag",
+                    "count": 10
+                }
+            ]
+        }
+    ]
+}
